@@ -1,10 +1,10 @@
 var mn = function( ){
 
-
+$("nav").fadeTo("slow",0.5); //on load...
 	
 $("nav").hover(function()
 			   {
-	$("nav").fadeTo("fast",1);
+	$("nav").fadeTo("fast",1); // hovering the navbar...
 	
 	
 }
@@ -12,7 +12,7 @@ $("nav").hover(function()
 function(){
 	
 	
-		$("nav").fadeTo("normal",0.5);
+		$("nav").fadeTo("normal",0.5); //after hover;
 	
 }
 			  );

@@ -1,10 +1,4 @@
-nav{
-	opacity:0.5;
-}
 
-#navigatie{
-	opacity: 0.7;
-}
 
 #tot_sablon{
 	opacity:0.7;
@@ -77,3 +71,18 @@ background-image: url("img/back.jpg");
 	background-position:right top;
 }
 	
+
+.active{
+	background-color:#5cb85c;
+	color:#5cb85c;
+	opacity: 1;
+	
+	
+	
+}
+
+.check{
+	background-color: #2A2625;
+	
+}
+

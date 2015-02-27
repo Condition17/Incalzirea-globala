@@ -7,8 +7,17 @@ $(document).ready(function() {
         var topDist = $("nav").position();
         if (scroll > topDist.top) {
             $('nav').css({"position":"fixed","margin-top":"0px"});
+
+		$("nav").fadeTo("normal",0.5);
+
+		
         } else {
-            $('nav').css({"position":"static","margin-top":"10px"});
+
+		
+            $('nav').css({"position":"static","margin-top":"20px"});
+		
+		
+		
         }
     });
 });

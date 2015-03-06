@@ -1,23 +1,34 @@
 $(document).ready(function() {
 
+
     $(document).scroll(function () {
 
         var scroll = $(this).scrollTop();
         
         var topDist = $("nav").position();
         if (scroll > topDist.top) {
-            $('nav').css({"position":"fixed","margin-top":"0px"});
-
-		$("nav").fadeTo("normal",0.5);
-
+            $('nav').css({"position":"fixed","margin-top":"0px"});		
+			
 		
-        } else {
 
 		
-            $('nav').css({"position":"static","margin-top":"20px"});
+        } 
+		
+		else {
+
+			
+           
+			$('nav').css({"position":"fixed","margin-top":"20px"});	
+		
+			
+	}
 		
 		
-		
-        }
     });
+	
+	
+	
+	
+
 });
+

@@ -131,3 +131,44 @@ h4 {
 .active:hover{
 	font-weight: normal;
 }
+
+
+#test:hover{
+	font-weight: normal;
+}
+input {
+	text-align: center;
+	margin: 5px;
+	
+}
+
+/* pentru test */
+#test{
+	margin-top:20px;
+}
+/*input-text after verifying */
+
+.corect{
+	color:forestgreen;
+	font-weight:bold;
+	
+}
+.incorect{
+	color:red;
+	font-weight: bold;
+}
+
+/*input-border after verifying */
+
+.corinp{
+	border-color: forestgreen;
+	border-width: 3px;
+	
+}
+.incinp{
+	border-width: 3px;
+	
+	border-color:red;
+}
+
+

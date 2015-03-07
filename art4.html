@@ -9,16 +9,19 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
      <script src="js/bootstrap.min.js"></script>
 	  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-		<script src="js/main.js"
+		
+	  
+	  <script src="js/test.js"></script>
+	  <script src="js/main.js"
 ></script>
-	  
-	  
     <title>Încălzirea globală</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 	  <link href="style.css" rel="stylesheet">
 <link href="article_styling.css" rel="stylesheet">
+	  
+	  
   </head>
 	
   <body>
@@ -63,6 +66,8 @@
                         <a  >Ce pot face eu?</a>
                     </li>
 					
+					<li><a data-toggle="modal" data-target="#myModal" >Test</a></li>
+					
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -70,6 +75,88 @@
         <!-- /.container-fluid -->
     </nav>
 		
+	  <!-- Test -->
+
+	  <div class="modal fade " id="myModal" tabindex="2" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  
+		  <div class="modal-dialog modal-lg">
+    
+	  <div class="modal-content">
+      
+		<div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span   aria-hidden="true">&times;</span></button>
+        <h3 class="modal-title" id="myModalLabel">Ce-am înțeles ?</h3>
+      </div>
+      		
+		  <form>
+		  	<ol>
+		  		<li id="test">
+		  			Incalzirea globala este fenomenul de <input type="text" class="i11" id='i11'>continua a temperaturilor medii inregistrate ale
+					in imediata apropiere a <input type="text" class="i12" id='i12'> , precum si a apei oceanelor, constatata in ultimele doua secole, dar mai ales in ultimele decenii.
+		  		</li>
+				
+				<li id="test">
+					Una din cauzele îcălzirii globale este  <select name="cauze" class="i21" id="i21">
+<option value="pui">Cresterea populatiei</option>
+<option value="olarit">Olăritul</option>
+<option value="caprioare">Dispariția căprioarelor</option>
+<option value="migratii">Migrațiile pasarilor</option>
+</select>
+					
+				</li>
+				
+				<li id="test">
+					
+					 Printre consecințele încălzirii globale se numără:<br>
+					<p class="i31"><input type="checkbox" id="i31" >Topirea ghețurilor </p>
+					<br>
+					<p class="i32"><input type="checkbox" id="i32">
+					Ridicarea nivelului mărilor</p>
+					<br>
+					<p class="i33"><input type="checkbox" id="i33">
+					Migrațiile păsărilor călăroare</p>
+					<br>
+					<p class="i34"><input type="checkbox" id="i34">
+					Dispariții ale unor specii de plante și animale </p>
+					<br>
+					<p class="i35"><input type="checkbox" id="i35">
+					Extreme meteo</p>
+					<br>
+				</li>
+				
+				<li id="test">
+					Ce poti face tu pentru a diminua încălzirea globală ? 
+					<br>
+					<p class="i41"><input type="radio" id="i41" name="some" value="gg"> Pot economisi energia
+					<br></p>
+					<p class="i42"><input type="radio" id="i42" name="how" value="hoho"> Pot petrece mai mult timp în aer liber
+						<br></p>
+					<p class="i43"><input type="radio" name="somehow" value="haha"> Pot urmari migratiile bancurilor de sardine
+					</p>
+					
+				</li>
+				
+		  	</ol>
+		  </form>
+		
+		<div class="modal-body">
+       		
+      </div>
+		
+		
+      <div class="modal-footer">
+		  <p class='Punctaj'>asdanasjkdnas</p>
+		  
+        <button type="button" class="btn btn-default" data-dismiss="modal">Închide fereastra</button>
+        <button type="button" class="btn btn-primary" id="Verificare" >Verifică-te</button>
+      </div>
+    
+			  </div>
+  
+		  </div>
+
+	  </div>
+	  
 	 
 	<!-- Continut-->
 	  
@@ -79,7 +166,7 @@
 	<div id="rand_articol" class="row">
 		
 		<div class="col-lg-12">
-			<div class="panel-title"> ce pot face eu? </div>
+			<div class="panel-title"> Ce pot face eu? </div>
 							<div class="panel-content" > <h4>Masoara-ti amprenta de carbon</h4>
 
 

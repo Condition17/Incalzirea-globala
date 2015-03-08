@@ -68,3 +68,10 @@ background-image: url("img/back.jpg");
 	background-position:right top;
 }
 	
+
+b {
+	z-index:3;
+	color: white;
+}
+
+

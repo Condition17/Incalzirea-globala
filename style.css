@@ -25,7 +25,7 @@ body{
 .jumbotron h1{
 
 	margin-top:1%;
-	margin-top:7%;
+	
 
 	
 	color:white;
@@ -34,11 +34,13 @@ body{
 	
 }
 .jumbotron p{
-	
-color: white;
+color:darkcyan;
 font-size:	1.5em;
+	font-weight: bold;
+	
 
 }
+
 
 
 
@@ -63,3 +65,38 @@ section {
 
 
 
+
+.linie {
+	border-top: 5px;
+	border-top-color: white;
+	background-color: white;
+	height: 4px;
+	border-radius: 2px;
+	
+}
+
+
+.relizator {
+	color:darkslategrey;
+	font-size:16px;
+	text-align: center;
+	
+	font-family: sans-serif;
+	font-weight: bold;
+
+	padding: inherit;
+	padding-top:1%;
+	
+	
+	
+	
+}
+
+
+.linie2 {
+	width:100%;
+	height:50px;
+	background-color:lightgrey;
+	border-top: 1.5px;
+	
+}

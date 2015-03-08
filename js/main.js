@@ -1,6 +1,8 @@
 $(document).ready(function() {
+	
 
 
+	
     $(document).scroll(function () {
 
         var scroll = $(this).scrollTop();

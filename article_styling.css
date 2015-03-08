@@ -172,3 +172,16 @@ input {
 }
 
 
+span.glyphicon-link {
+    font-size: 1.2em;
+}
+
+
+.relizator {
+	color:white;
+	font-size:16px;
+	text-align: center;
+	
+	padding-bottom: 10px;
+	
+}

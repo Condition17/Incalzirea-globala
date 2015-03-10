@@ -24,13 +24,14 @@ body{
 
 .jumbotron h1{
 
-	margin-top:1%;
+	margin-top:20%;
 	
-
+	padding:10px;
 	
 	color:white;
 	font-family:sans-serif;
 	font-size: 6em;
+	
 	
 }
 .jumbotron p{
@@ -66,14 +67,7 @@ section {
 
 
 
-.linie {
-	border-top: 5px;
-	border-top-color: white;
-	background-color: white;
-	height: 4px;
-	border-radius: 2px;
-	
-}
+
 
 
 .relizator {
@@ -100,3 +94,33 @@ section {
 	border-top: 1.5px;
 	
 }
+
+.liceu{
+padding:10px;
+font-size:1.2em;
+color:white;
+font-weight:bold;
+
+}
+
+.patrat{
+border-radius:5px;
+background-color: #7A7A82;
+width:60%;
+opacity:0.8;
+}
+ 
+
+.unic{
+opacity:1;
+
+}
+
+/*.linie {
+	border-top: 5px;
+	border-top-color: white;
+	background-color: white;
+	height: 4px;
+	border-radius: 2px;
+	
+}*/
